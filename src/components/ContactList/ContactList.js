@@ -4,9 +4,7 @@ import css from './ContactList.module.css'
 
 
 function ContactList (props){
-
-
-
+  
     return(
       <ul className={css.list}>
         {props.visContacts.map(el => (
